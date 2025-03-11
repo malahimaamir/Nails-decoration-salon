@@ -1,0 +1,13 @@
+.fs-ch-2 {
+    font-size: 2ch;
+}
+
+.flex-item {
+    padding: 10px
+}
+
+@media (min-width: 640px) {
+    .flex-item {
+        flex: 0 0 50%;
+    }
+}
